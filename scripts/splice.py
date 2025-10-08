@@ -9,4 +9,4 @@ def splice_csv(input_path, output_path, num_rows):
 	df.head(num_rows).to_csv(output_path, index=False)
 
 
-splice_csv('data/clean_data.csv', 'data/splice_data.csv', 1000)
+splice_csv('data/clean_data.csv', 'data/splice_data01.csv', 10000)
